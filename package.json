@@ -1,0 +1,19 @@
+{
+  "name": "vc-json",
+  "version": "1.0.0",
+  "description": "Formats JSON for version control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+      "vc-json": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eol": "^0.2.0",
+    "format-json": "^1.0.3",
+    "walk": "^2.3.9"
+  }
+}
